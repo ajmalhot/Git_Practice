@@ -9,3 +9,7 @@ spec:
   containers:
     - name: nginx
       image: nginx:latest
+    - ports:
+        port: 80
+        targetport: 30004
+
